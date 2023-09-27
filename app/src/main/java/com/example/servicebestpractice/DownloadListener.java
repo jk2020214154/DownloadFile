@@ -8,7 +8,7 @@ public interface DownloadListener {
 
     void onFailed();
 
-    void onPaused();
+    void onPaused(int progress);
 
     void onCanceled();
 
